@@ -10,10 +10,10 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://psychic-adventure-v7nw1l5.pages.github.io/',
+  url: 'https://gmiswe.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/document-site/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
