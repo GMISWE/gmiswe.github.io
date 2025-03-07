@@ -68,12 +68,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/gmi-pfp.jpg',
     navbar: {
-      title: 'GMI Document Site Title',
+      title: 'GMI Documentation',
       logo: {
         alt: 'GMI Document Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/gmi-icon.png',
       },
       items: [
         {
