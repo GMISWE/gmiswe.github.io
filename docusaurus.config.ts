@@ -82,13 +82,17 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {href: 'https://www.gmicloud.ai/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/GMISWE/document-site',
           label: 'GitHub',
           position: 'right',
         },
       ],
+    },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true
     },
     footer: {
       style: 'dark',
@@ -124,7 +128,7 @@ const config: Config = {
           items: [
             {
               label: 'Blog',
-              to: '/blog',
+              href: 'https://www.gmicloud.ai/blog',
             },
             {
               label: 'GitHub',
@@ -133,7 +137,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} GMI Cloud, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
