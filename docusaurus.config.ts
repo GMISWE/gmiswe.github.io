@@ -124,7 +124,7 @@ const config: Config = {
           items: [
             {
               label: 'Blog',
-              to: '/blog',
+              href: 'https://www.gmicloud.ai/blog',
             },
             {
               label: 'GitHub',
@@ -133,7 +133,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} GMI Cloud, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
