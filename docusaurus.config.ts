@@ -82,13 +82,17 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {href: 'https://www.gmicloud.ai/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/GMISWE/document-site',
           label: 'GitHub',
           position: 'right',
         },
       ],
+    },
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true
     },
     footer: {
       style: 'dark',

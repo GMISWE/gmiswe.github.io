@@ -1,4 +1,7 @@
-# What we do
+---
+sidebar_position: 1
+---
+# What We Do
 :::tip
 
 This content is from a previous version of the documentation
