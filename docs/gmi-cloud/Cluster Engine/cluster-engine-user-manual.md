@@ -1,73 +1,5 @@
 # Cluster Engine User Manual
 
-- [User Management](#user-management)
--   [Login](#login)
--   [Logout](#logout)
--   [Change Password](#change-password)
--   [Organization](#organization)
-  
-  -   [Member List](#member-list)
-  
-  -   [Invite Members](#invite-members)
--   [Billing](#billing)
-  
-  -   [Manage orders](#manage-orders)
-  
-  -   [View invoice](#view-invoice)
-  
-  -   [Cancel a pending order](#cancel-a-pending-order)
-- [Marketplace](#marketplace)
--   [Rent Bare Metal Servers](#rent-bare-metal-servers)
-  
-  -   [Choose bare metal sever type](#choose-bare-metal-sever-type)
-  
-  -   [Bare metal settings](#bare-metal-settings)
--   [Rent Containers](#rent-containers)
-  
-  -   [Choose container spec](#choose-container-spec)
-  
-  -   [Container settings](#container-settings)
--   [Shopping Cart](#shopping-cart)
-  
-  -   [Confirm Order Information](#confirm-order-information)
-  
-  -   [Complete Order](#complete-order)
-  
-  -   [Payment](#payment)
-- [Resources Overview](#resources-overview)
--   [Resource Usage](#resource-usage)
-- [Bare Metal Resources](#bare-metal-resources)
--   [Manage Bare Metal Servers](#manage-bare-metal-servers)
-  
-  -   [Rename a bare metal server](#rename-a-bare-metal-server)
-  
-  -   [Stop a running bare metal server](#stop-a-running-bare-metal-server)
-  
-  -   [Start a stopped bare metal server](#start-a-stopped-bare-metal-server)
-  
-  -   [PowerCycle a bare metal server](#powercycle-a-bare-metal-server)
-  
-  -   [Reboot a bare metal server](#reboot-a-bare-metal-server)
-- [Container Resources](#container-resources)
--   [Manage Containers](#manage-containers)
-  
-  -   [Container Status Descriptions](#container-status-descriptions)
-  
-  -   [Edit a Container](#edit-a-container)
-  
-  -   [Restart a Container](#restart-a-container)
-  
-  -   [View Container Logs](#view-container-logs)
-  
-  -   [Download Container Logs](#download-container-logs)
--   [Templates](#templates)
-  
-  -   [Add a New Template](#add-a-new-template)
-  
-  -   [Edit a Template](#edit-a-template)
-  
-  -   [Delete a Template](#delete-a-template)
-
 **Cluster Engine Version**: 2.1.0
 
 # User Management
@@ -329,7 +261,7 @@
 
 ![image-20250312-152809.png](./attachments/image-20250312-152809.png)
 
-2\. Click “**Reboot**“ to confirm
+1. Click “**Reboot**“ to confirm
 
 ![image-20250311-143141.png](./attachments/image-20250311-143141.png)
 
@@ -341,6 +273,22 @@
 2. Select **"Containers"** from the sidebar to access the Container page.
 
 ![image-20250312-024030.png](./attachments/image-20250312-024030.png)
+
+### Access Containers
+
+#### ssh
+
+1. Locate a container and click the port “**22**“ icon in the “**Access**“ field
+2. Copy the ssh command and paste it to your terminal
+
+![image-20250313-034423.png](./attachments/image-20250313-034423.png)
+
+#### Jupyter Notebook
+
+1. Locate a container click the port “**8888**“ icon in the “**Access**“ field
+2. A Jupyter Notebook web page will be opened in another browser tab
+
+![image-20250313-034713.png](./attachments/image-20250313-034713.png)
 
 ### Container Status Descriptions
 

@@ -1,13 +1,5 @@
 # Cluster Engine Client Requirements
 
-- [System Requirements](#system-requirements)
--   [Minimum](#minimum)
-  
-  -   [Browser](#browser)
--   [Recommended](#recommended)
-  
-  -   [Browser](#browser)
-
 **Cluster Engine Version**: 2.1.0
 
 # System Requirements
