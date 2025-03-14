@@ -20,7 +20,7 @@ You’re about to supercharge your AI models with lightning-fast inference. Infe
 
 You now have full control over your GPU clusters, giving you the flexibility to train, fine-tune, and scale your AI workloads with ease. Cluster Engine simplifies resource management so you can focus on performance and efficiency. Let’s get started.
 
-## [Migration Guide](/migration-guide)
+## [Migration Guide](/migration)
 
 ### Moving AI Workloads to GMI Cloud
 
