@@ -119,19 +119,19 @@ const config: Config = {
           items: [
             {
               label: 'What We Do',
-              to: '/docs/intro',
+              to: '/intro',
             },
             {
               label: 'Cluster Engine',
-              to: '/docs/gmi-cloud/cluster-engine'
+              to: '/cluster-engine'
             },
             {
               label: 'Inference Engine',
-              to: '/docs/gmi-cloud/inference-engine'
+              to: '/inference-engine'
             },
             {
               label: 'Migration',
-              to: '/docs/gmi-cloud/cluster-engine/aws-to-gmi-migration'
+              to: '/migration'
             }
           ],
         },
