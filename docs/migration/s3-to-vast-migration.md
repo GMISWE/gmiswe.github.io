@@ -1,3 +1,8 @@
+---
+toc_max_heading_level: 2
+sidebar_label: S3 Migration
+---
+
 # AWS S3 to GMI Cloud Cold Storage Migration
 
 ## Introduction
@@ -18,7 +23,7 @@ GMI Cloud leverages VAST Storage technology, renowned for delivering an S3-compa
 
 While VAST Storage itself does not include a dedicated migration tool, data migration from AWS S3 to GMI Cloud Cold Storage can be efficiently handled through several proven methods:
 
-### 1\. AWS CLI-Based Migration
+### 1. AWS CLI-Based Migration
 
 AWS CLI offers flexible command-line operations (`aws s3 cp` or `aws s3 sync`) that facilitate downloading AWS S3 data to local storage and subsequently uploading to GMI Cloud.
 
@@ -33,7 +38,7 @@ AWS CLI offers flexible command-line operations (`aws s3 cp` or `aws s3 sync`) t
 `rclone sync /local-storage-path gmi-cloud:your-destination-bucket`  
 This approach is suitable for moderate-sized datasets and environments with sufficient local storage and bandwidth.
 
-### 2\. Multi-Protocol Transfer via VAST Storage
+### 2. Multi-Protocol Transfer via VAST Storage
 
 GMI Cloud Cold Storage supports multiple access protocols (S3, NFS, SMB). Enterprises can leverage this flexibility by transferring data directly using standard tools compatible with the S3 protocol or by leveraging other common file-sharing protocols:
 
@@ -45,7 +50,7 @@ GMI Cloud Cold Storage supports multiple access protocols (S3, NFS, SMB). Enterp
 
  Enterprises already familiar with NFS or SMB protocols can transfer data after downloading from AWS S3 to local storage and then uploading to GMI Cloud via these protocols.
 
-### 3\. Third-Party Migration Tools
+### 3. Third-Party Migration Tools
 
 A variety of robust third-party solutions are available for streamlined cloud data migration, including but not limited to:
 
@@ -57,13 +62,13 @@ These tools are designed to facilitate seamless migrations with built-in data in
 
 ## Migration Standard Operating Procedure (SOP)
 
-### Step 1: Pre-Migration Planning and Preparation
+### 1. Pre-Migration Planning and Preparation
 
 * Data Assessment:** Identify data type, volume, and frequency of access.
 
 * Establish Security Credentials:** Create AWS IAM credentials with appropriate S3 permissions, and obtain API keys for GMI Cloud Cold Storage.
 
-### 2\. Configuration of Migration Tools
+### 2. Configuration of Migration Tools
 
 * Install and Configure AWS CLI and rclone:
 
@@ -72,7 +77,7 @@ These tools are designed to facilitate seamless migrations with built-in data in
 
 * Provide AWS IAM credentials and GMI Cloud credentials during the configuration process.
 
-### 3\. Execution of Migration
+### 3. Execution of Migration
 
 * Initiate migration using preferred methods (CLI-based, direct S3 transfers, or third-party tools):
 
@@ -85,13 +90,13 @@ or directly:
 
 * Monitor the process actively to promptly identify any issues.
 
-### 4\. Post-Migration Verification
+### 4. Post-Migration Verification
 
 * Validate data completeness by comparing the file counts, sizes, and sample integrity checks between source and destination.
 
 * Conduct thorough testing of key applications that access the migrated data.
 
-### 5\. Application Reconfiguration and Validation
+### 5. Application Reconfiguration and Validation
 
 * Update application and service configurations to use GMI Cloud Cold Storage endpoints instead of AWS S3.
 

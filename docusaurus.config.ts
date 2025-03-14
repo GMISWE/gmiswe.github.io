@@ -6,14 +6,14 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'GMI Cloud Document Site',
-  tagline: 'GMI Cloud Document Site Tag Line',
+  tagline: 'Welcome to the GMI Cloud Resource Docs!',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://gmiswe.github.io/',
+  url: 'https://docs.gmicloud.ai/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/document-site/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -38,6 +38,7 @@ const config: Config = {
       'classic',
       {
         docs: {
+          routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -59,6 +60,10 @@ const config: Config = {
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
+        gtag: {
+          trackingID: 'GTM-P5WZVMXP',
+          anonymizeIP: true,
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -77,12 +82,24 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          to: '/inference-engine',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Inference Engine',
         },
-        {href: 'https://www.gmicloud.ai/blog', label: 'Blog', position: 'left'},
+        {
+          to: '/cluster-engine',
+          position: 'left',
+          label: 'Cluster Engine',
+        },
+        {
+          to: '/migration',
+          position: 'left',
+          label: 'Migration Guide',
+        },
+        {
+          href: 'https://www.gmicloud.ai/blog', 
+          label: 'Blog', 
+          position: 'left'},
         {
           href: 'https://github.com/GMISWE/document-site',
           label: 'GitHub',
@@ -101,9 +118,21 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'What We Do',
               to: '/docs/intro',
             },
+            {
+              label: 'Cluster Engine',
+              to: '/docs/gmi-cloud/cluster-engine'
+            },
+            {
+              label: 'Inference Engine',
+              to: '/docs/gmi-cloud/inference-engine'
+            },
+            {
+              label: 'Migration',
+              to: '/docs/gmi-cloud/cluster-engine/aws-to-gmi-migration'
+            }
           ],
         },
         {
@@ -127,12 +156,16 @@ const config: Config = {
           title: 'More',
           items: [
             {
+              label: 'GMI Cloud',
+              href: 'https://www.gmicloud.ai'
+            },
+            {
               label: 'Blog',
               href: 'https://www.gmicloud.ai/blog',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/GMISWE/document-site',
+              href: 'https://github.com/GMISWE/',
             },
           ],
         },

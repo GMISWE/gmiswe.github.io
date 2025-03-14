@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            GMI Cloud Tutorial - 5min ⏱️
+            GMI Cluster Engine User Guide
           </Link>
         </div>
       </div>

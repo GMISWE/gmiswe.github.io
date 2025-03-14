@@ -1,3 +1,7 @@
+---
+hide_table_of_contents: true
+---
+
 # Cluster Engine Client Requirements
 
 **Cluster Engine Version**: 2.1.0
