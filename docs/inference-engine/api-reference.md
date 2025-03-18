@@ -50,7 +50,7 @@ curl https://api.gmi-serving.com/v1/models \
 ### Response Parameters
 | Parameter     | Type     | Description                                      |
 |---------------|----------|--------------------------------------------------|
-| `id`          | string   | Model identifier (e.g., "gpt-4o")                |
+| `id`          | string   | Model identifier                                 |
 | `object`      | string   | Always "model"                                   |
 | `created`     | integer  | Unix timestamp of model creation                 |
 | `owned_by`    | string   | Organization that owns the model                 |
@@ -100,7 +100,7 @@ Authorization: Bearer <token>
 "id": "chatcmpl-123",
 "object": "chat.completion",
 "created": 1677652288,
-"model": "gpt-3.5-turbo",
+"model": "deepseek-ai/DeepSeek-R1",
 "choices": [{
 "message": {
 "role": "assistant",
