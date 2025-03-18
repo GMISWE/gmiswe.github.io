@@ -84,23 +84,15 @@ Authorization: Bearer <token>
 | `messages` | object[] | Yes | - | Conversation history |
 | `tools` | object[] | No | - | Supported tools/functions |
 | `max_tokens` | integer | No | 2000 | Max output tokens (1-128) |
-| `prompt_truncate_len` | integer | No | 1500 | Truncation length for long prompts |
 | `temperature` | number | No | 1 | 0-2 sampling randomness |
 | `top_p` | number | No | 1 | Nucleus sampling (0-1) |
 | `top_k` | integer | No | - | Top-k sampling (1-128) |
-| `frequency_penalty` | number | No | 0 | -2 to 2 repetition control |
-| `presence_penalty` | number | No | 0 | -2 to 2 topic novelty |
-| `repetition_penalty` | number | No | 1 | 0-2 repetition control |
-| `reasoning_effort` | string | No | - | "low"/"medium"/"high" thinking effort |
-| `mirostat_lr` | number | No | 0.1 | Mirostat learning rate |
-| `mirostat_target` | number | No | 1.5 | Target perplexity (1-5) |
-| `n` | integer | No | 1 | Number of completions (1-128) |
 | `ignore_eos` | boolean | No | false | Continue past EOS token |
 | `stop` | string[] | No | - | Up to 4 stop sequences |
 | `response_format` | object | No | - | Force output format (e.g., JSON) |
 | `stream` | boolean | No | false | Stream partial progress |
 | `context_length_exceeded_behavior` | string | No | truncate | "truncate" or "error" |
-| `user` | string | No | - | End-user identifier |
+
 
 ### Response
 ```json
