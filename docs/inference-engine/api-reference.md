@@ -137,4 +137,3 @@ Authorization: Bearer <token>
 3. Organization/project usage is tracked via headers
 4. Find organization/project IDs in settings pages
 
-> **Tip**: For reasoning model parameters and limitations, consult the [reasoning guide](#).
