@@ -1,4 +1,4 @@
-# Migration Guide
+# Migration Guides
 
 ## Moving AI Workloads to GMI Cloud
 
