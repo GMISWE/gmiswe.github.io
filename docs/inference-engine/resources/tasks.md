@@ -6,14 +6,14 @@ sidebar_position: 1
 # Tasks
 Tasks are designed to create dedicated endpoints for the provided official models or for custom models derived from the artifacts you have built.
 
-## Task List 
+## View Task
 1. Click "Resources Overview" in the upper right corner of the menu.
 
-   ![image-20250320142338452](../../../static/assets/image-20250320142338452.png)
+   ![image-20250320142338452](/assets/image-20250320142338452.png)
 
 2. Click on "Tasks" in the left-hand menu.You can view tasks dashboard.
 
-   ![image-20250320142756262](../../../static/assets/image-20250320142756262.png)
+   ![image-20250320142756262](/assets/image-20250320142756262.png)
 
 - **Name**: Task name.
 
@@ -23,35 +23,36 @@ Tasks are designed to create dedicated endpoints for the provided official model
 
 - **Access**: Service - dedicated endpoint URL
 
-  ​               Dashboard - monitor task deployment
+  ​        Dashboard - monitor task deployment
 
 - **Schedule**: Task's scheduling, One-off or daily.
 
 - **Created**: Task created time
 
-- **Status**:  Idle -  The task is not currently running and is waiting for execution. No resources are being used.
+- **Status**:  <br>
+  ​           Idle -  The task is not currently running and is waiting for execution. No resources are being used.
 
-  ​               In-queue - The task is waiting in line to be executed. 
+  ​           In-queue - The task is waiting in line to be executed. 
 
-  ​               Starting - The task is in the process of initializing. Resources are being allocated, and the task is preparing to run.               
+  ​           Starting - The task is in the process of initializing. Resources are being allocated, and the task is preparing to run.               
 
-  ​               Running -  The task is currently executing. Resources are actively being used to perform the task.
+  ​           Running -  The task is currently executing. Resources are actively being used to perform the task.
 
-  ​               Need Stop - The task is about to be terminated.
+  ​           Need Stop - The task is about to be terminated.
 
-- **Actions**:  Click button <img src="../../../static/assets/image-20250320144748075.png" alt="image-20250320144748075" style="zoom:50%;" /> to deactive the running task.
+- **Actions**:  Click button <img src="/assets/image-20250320144748075.png" alt="image-20250320144748075" style="zoom:50%;" /> to deactive the running task.
 
-  ​                 Click button <img src="../../../static/assets/image-20250320145006225.png" alt="image-20250320145006225" style="zoom:50%;" />  to active the idle task.
+  ​                 Click button <img src="/assets/image-20250320145006225.png" alt="image-20250320145006225" style="zoom:50%;" />  to active the idle task.
 
   ​                 Click Edit menu to edit the task.
 
   ​                 Click Archive menu to archive the task.
 
-  ​                 <img src="../../../static/assets/image-20250320145128252.png" alt="image-20250320145128252" style="zoom:50%;" />
+  ​                 <img src="/assets/image-20250320145128252.png" alt="image-20250320145128252" style="zoom:50%;" />
 
 4. Click the status tab to review the tasks corresponding to each status.
 
-   ![image-20250320145346198](../../../static/assets/image-20250320145346198.png)
+   ![image-20250320145346198](/assets/image-20250320145346198.png)
 
 
 
@@ -63,7 +64,7 @@ Tasks are designed to create dedicated endpoints for the provided official model
 
    The resource cannot be edited; click the "Next" button.
 
-   ![image-20250319164015889](../../../static/assets/image-20250319164015889.png)
+   ![image-20250319164015889](/assets/image-20250319164015889.png)
 
 3. Setting and scheduling
 
@@ -85,19 +86,19 @@ Tasks are designed to create dedicated endpoints for the provided official model
 
    **Replicas**: Select the Min replicas and Max replicas for schedule.
 
-   ![image-20250319164338359](../../../static/assets/image-20250319164338359.png)
+   ![image-20250319164338359](/assets/image-20250319164338359.png)
 
-   ![image-20250319165448700](../../../static/assets/image-20250319165448700.png)
+   ![image-20250319165448700](/assets/image-20250319165448700.png)
 
 4. Summary
 
    Review the information in the summary page.  After confirmation, click the "Launch" button to launch task. 
 
-   ![image-20250320145850395](../../../static/assets/image-20250320145850395.png)
+   ![image-20250320145850395](/assets/image-20250320145850395.png)
 
 5. Active the Task
 
-   In the task list, locate the task and then click button <img src="../../../static/assets/image-20250320145006225.png" alt="image-20250320145006225" style="zoom:50%;" />  to active the idle task.
+   In the task list, locate the task and then click button <img src="/assets/image-20250320145006225.png" alt="image-20250320145006225" style="zoom:50%;" />  to active the idle task.
 
    
 

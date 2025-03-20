@@ -1,4 +1,5 @@
 # Pricing
+## Serverless Pricing
 The prices are based on 1 million tokens.
 
 | model_name                                | input_price | output_price |
@@ -41,3 +42,10 @@ The prices are based on 1 million tokens.
 | Qwen/Qwen2.5-32B                          | $0.13       | $0.40        |
 | Qwen/Qwen2.5-32B-Instruct                 | $0.13       | $0.40        |
 | Qwen/Qwen2.5-Coder-32B-Instruct           | $0.13       | $0.40        |
+
+## Dedicated Pricing
+
+| GPU Type | Price      |
+|----------|------------|
+| H100     | $4.98/Hour |
+| H200     | $5.98/Hour |
