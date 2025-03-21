@@ -25,7 +25,7 @@ Artifacts manage model artifacts and their dependencies, including Docker contai
 
    ![image-20250320154727392](/assets/image-20250320154727392.png)
 
-2. You will see template list, choose the template, then will create custom models artifact from template.
+2. You can view the template list, select a template, and then create a custom model artifact based on that template.
 
    ![image-20250320155357774](/assets/image-20250320155357774.png)
 
@@ -39,7 +39,7 @@ Artifacts manage model artifacts and their dependencies, including Docker contai
 
    **Description**: Input description.
 
-   **Upload Icon**: Upload Icon
+   **Upload Icon**: Upload Icon.
 
    **Build File**: Upload a build ZIP file including Docker containers and associated scripts. E.g.
 
