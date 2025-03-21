@@ -29,7 +29,7 @@ Tasks are designed to create dedicated endpoints for the provided official model
 
 - **Created**: Task created time
 
-- **Status**:  <br>
+- **Status**:  
   ​           Idle -  The task is not currently running and is waiting for execution. No resources are being used.
 
   ​           In-queue - The task is waiting in line to be executed. 
