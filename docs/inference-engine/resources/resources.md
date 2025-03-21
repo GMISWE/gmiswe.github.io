@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Resources
 A dedicated endpoint can be created by launching tasks from both official and custom models.   
 Official models are provided by GMI Cloud.  
