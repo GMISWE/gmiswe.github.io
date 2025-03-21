@@ -40,15 +40,15 @@ Tasks are designed to create dedicated endpoints for the provided official model
 
   ​           Need Stop - The task is about to be terminated.
 
-- **Actions**:  Click button <img src="/assets/image-20250320144748075.png" alt="image-20250320144748075" style="zoom:50%;" /> to deactive the running task.
+- **Actions**:  Click button <img src="/assets/image-20250320144748075.png" alt="image-20250320144748075" style={{ width: '50%', height: 'auto' }} /> to deactive the running task.
 
-  ​                 Click button <img src="/assets/image-20250320145006225.png" alt="image-20250320145006225" style="zoom:50%;" />  to active the idle task.
+  ​                 Click button <img src="/assets/image-20250320145006225.png" alt="image-20250320145006225" style={{ width: '50%', height: 'auto' }} />  to active the idle task.
 
   ​                 Click Edit menu to edit the task.
 
   ​                 Click Archive menu to archive the task.
 
-  ​                 <img src="/assets/image-20250320145128252.png" alt="image-20250320145128252" style="zoom:50%;" />
+  ​                 <img src="/assets/image-20250320145128252.png" alt="image-20250320145128252" style={{ width: '50%', height: 'auto' }} />
 
 4. Click the status tab to review the tasks corresponding to each status.
 
@@ -98,7 +98,7 @@ Tasks are designed to create dedicated endpoints for the provided official model
 
 5. Active the Task
 
-   In the task list, locate the task and then click button <img src="/assets/image-20250320145006225.png" alt="image-20250320145006225" style="zoom:50%;" />  to active the idle task.
+   In the task list, locate the task and then click button <img src="/assets/image-20250320145006225.png" alt="image-20250320145006225" style={{ width: '50%', height: 'auto' }} />  to active the idle task.
 
    
 

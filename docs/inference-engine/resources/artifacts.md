@@ -43,9 +43,8 @@ Artifacts manage model artifacts and their dependencies, including Docker contai
 
    **Build File**: Upload a build ZIP file including Docker containers and associated scripts. E.g.
 
-   ​                    <img src="/assets/image-20250320162015376.png" alt="image-20250320162015376" style="zoom:50%;" />
+   ​                    <img src="/assets/image-20250320162015376.png" alt="image-20250320162015376" style={{ width: '50%', height: 'auto' }} />
 
-   
 
 2. Click the "Create" button to create an artifact. You will then see the artifact in the artifact dashboard under custom models, along with its building status.
 
@@ -53,6 +52,6 @@ Artifacts manage model artifacts and their dependencies, including Docker contai
 
 3. Upload model files by clicking button ![image-20250320162908676](/assets/image-20250320162908676.png)
 
-   <img src="/assets/image-20250320162838929.png" alt="image-20250320162838929" style="zoom:50%;" />
+   <img src="/assets/image-20250320162838929.png" alt="image-20250320162838929" style={{ width: '50%', height: 'auto' }} />
 
 4. Wait for the artifact to reach "Running" status (this may take several minutes), and then you can launch a task from the built artifact.

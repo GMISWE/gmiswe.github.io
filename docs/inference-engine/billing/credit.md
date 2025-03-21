@@ -10,7 +10,7 @@ Click "MaaS" in the top left corner of the navigation bar, the you will see your
 
 1. Click "Deposit" button to add credit.
 
-   <img src="/assets/image-20250320165423538.png" alt="image-20250320165423538" style="zoom:50%;" />
+   <img src="/assets/image-20250320165423538.png" alt="image-20250320165423538" style={{ width: '50%', height: 'auto' }} />
 
 2. Input credit number, click "Add to Cart" button.
 
@@ -32,16 +32,16 @@ Click "MaaS" in the top left corner of the navigation bar, the you will see your
 
 ​       If you have a PayPal account, click "PayPal," log in to your account, and proceed with the payment.
 
-​      <img src="/assets/image-20250320213422097.png" alt="image-20250320213422097, style=&quot;zoom:50%;&quot;" style="zoom:50%;" />
+​      <img src="/assets/image-20250320213422097.png" alt="image-20250320213422097" style={{ width: '50%', height: 'auto' }} />
 
 ​      If you don't have a PayPal account, click "Debit or Credit Card," enter your card information, and proceed with the payment.
 
-​      <img src="/assets/image-20250320213628752.png" alt="image-20250320213628752" style="zoom:50%;" />
+​      <img src="/assets/image-20250320213628752.png" alt="image-20250320213628752" style={{ width: '50%', height: 'auto' }} />
 
 ## Use Voucher
 
 If you have voucher, redeem it by inputting voucher code.
 
-<img src="/assets/image-20250320214035386.png" alt="image-20250320214035386" style="zoom:50%;" />
+<img src="/assets/image-20250320214035386.png" alt="image-20250320214035386" style={{ width: '50%', height: 'auto' }} />
 
-<img src="/assets/image-20250320214131433.png" alt="image-20250320214131433" style="zoom:50%;" />
+<img src="/assets/image-20250320214131433.png" alt="image-20250320214131433" style={{ width: '50%', height: 'auto' }}s />

@@ -12,7 +12,7 @@ You can view serverless usage in the dashboard.
 
 3. Click the "Filter" button, and then you can modify the conditions for viewing usage.
 
-   <img src="/assets/image-20250319154643712.png" alt="image-20250319154643712" style="zoom:50%;" />
+   <img src="/assets/image-20250319154643712.png" alt="image-20250319154643712" style={{ width: '50%', height: 'auto' }} />
 
    Timezone: you can select "Local Timezone" or "UTC".
 
@@ -39,7 +39,7 @@ You can view dedicated usage in the dashboard.
 
 3. Click the "Filter" button, and then you can modify the conditions for viewing usage.
 
-   <img src="/assets/image-20250319154643712.png" alt="image-20250319154643712" style="zoom:50%;" />
+   <img src="/assets/image-20250319154643712.png" alt="image-20250319154643712" style={{ width: '50%', height: 'auto' }} />
 
    Timezone: you can select "Local Timezone" or "UTC".
 

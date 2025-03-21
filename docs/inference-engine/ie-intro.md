@@ -1,3 +1,7 @@
+---
+toc_max_heading_level: 3
+sidebar_position: 1
+---
 # Inference Engine Overview
 The GMI Inference Engine provides a streamlined solution for deploying and managing machine learning models in production environments.
 It supports two types of endpoints: Serverless Endpoints and Dedicated Endpoints. 

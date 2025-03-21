@@ -47,7 +47,7 @@ Review your configurations to ensure they are correct. After confirmation, click
 ![Dedicated step 3](/assets/gmi-dedicated-pg3.png)
 
 ### Active task
-In the task list, locate the task and then click button <img src="/assets/image-20250320145006225.png" alt="image-20250320145006225" style="zoom:50%;" /> to active the idle task.
+In the task list, locate the task and then click button <img src="/assets/image-20250320145006225.png" alt="image-20250320145006225" style={{ width: '50%', height: 'auto' }} /> to active the idle task.
 
 
 
