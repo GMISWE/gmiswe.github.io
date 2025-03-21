@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # Marketplace
 
 ## Selecting the Models as a Service (MaaS) dashboard

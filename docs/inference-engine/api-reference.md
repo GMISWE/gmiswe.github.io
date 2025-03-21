@@ -1,3 +1,6 @@
+---
+sidebar_position: 2
+---
 # GMI Inference Engine API Reference
 
 ## Introduction
