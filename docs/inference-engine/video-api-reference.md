@@ -108,7 +108,7 @@ Check each model's discription for details.
 
 ---
 
-## 5. Schemas
+## Schemas
 
 ### Image-to-Video (Input)
 
