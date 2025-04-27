@@ -58,7 +58,7 @@ The client API handles the full request/response cycle. It submits the job, poll
 ```bash
 response=$(curl --request POST \
   --url https://queue.gmi-serving.com/video/Wan2_1 \
-  --header "Authorization: Key $GMI_KEY" \
+  --header "Authorization: Key $GMI_API_KEY" \
   --header "Content-Type: application/json" \
   --data '{
      "prompt": "Baseball player hiting the ball, slow motion.",
@@ -81,7 +81,7 @@ Long-running jobs (e.g., video or batch LLM inference) should use the Queue API.
 ```bash
 curl --request GET \
   --url https://queue.gmi-serving.com/video/requests/$REQUEST_ID/status \
-  --header "Authorization: Key $GMI_KEY"
+  --header "Authorization: Key $GMI_API_KEY"
 ```
 
 ### Get the Result
@@ -89,7 +89,7 @@ curl --request GET \
 ```bash
 curl --request GET \
   --url https://queue.gmi-serving.com/video/requests/$REQUEST_ID \
-  --header "Authorization: Key $GMI_KEY"
+  --header "Authorization: Key $GMI_API_KEY"
 ```
 
 ---
