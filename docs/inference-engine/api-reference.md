@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-# GMI Inference Engine API Reference
+# LLM API Reference
 
 ## Introduction
 This API reference describes the RESTful, streaming, and realtime APIs you can use to interact with the GMI Inference Engine. REST APIs are usable via HTTP in any environment that supports HTTP requests.
