@@ -94,7 +94,7 @@ const config: Config = {
         {
           to: '/migration',
           position: 'left',
-          label: 'Migration Guide',
+          label: 'Migration Guides',
         },
         {
           href: 'https://www.gmicloud.ai/blog', 
