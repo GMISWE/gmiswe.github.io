@@ -130,7 +130,7 @@ const config: Config = {
               to: '/inference-engine'
             },
             {
-              label: 'Migration',
+              label: 'Migration Guides',
               to: '/migration'
             }
           ],
@@ -150,6 +150,10 @@ const config: Config = {
               label: 'YouTube',
               href: 'https://www.youtube.com/channel/UCYvrXI_ojg1Hcv3cT6j1CSw',
             },
+            {
+              label: 'Discord',
+              href: 'https://discord.gg/He5Yhmwdmj'
+            },
           ],
         },
         {
@@ -166,6 +170,10 @@ const config: Config = {
             {
               label: 'GitHub',
               href: 'https://github.com/GMISWE/',
+            },
+            {
+              label: 'Join Us!',
+              href: 'https://www.gmicloud.ai/careers'
             },
           ],
         },
