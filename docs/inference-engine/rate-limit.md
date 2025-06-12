@@ -1,7 +1,7 @@
 
 
 # Rate limits
-To maintain system stability and equitable access, our API enforces rate limiting—controlling how frequently a single user or application can send requests within a certain time window.
+To maintain system stability and equitable access, our API enforces rate limiting—controlling how frequently an organization can send requests within a certain time window.
 
 ## How do these rate limits work?
 API rate limits are defined in two ways:
