@@ -1,11 +1,11 @@
 ---
 sidebar_position: 2
 ---
-# GMI Cloud Video Generation SDK Usage Guide
+# Video SDK Reference
 
 ## Overview
 
-The GMI Cloud Video Generation SDK provides a Python interface for creating, managing, and monitoring video generation requests using state-of-the-art AI models. This SDK allows users to generate videos from text prompts, images, or other inputs through an asynchronous request system.
+GMI Cloud Video Generation SDK provides a Python interface for creating, managing, and monitoring video generation requests using state-of-the-art AI models. This SDK allows users to generate videos from text prompts, images, or other inputs through an asynchronous request system.
 
 ## Features
 
@@ -29,7 +29,7 @@ pip install gmicloud
 ### Prerequisites
 
 Before using the video generation SDK, you must have:
-- A GMI Cloud account (invite-only - contact getstarted@gmicloud.ai)
+- A GMI Cloud account
 - Valid authentication credentials
 
 ### Authentication Configuration
