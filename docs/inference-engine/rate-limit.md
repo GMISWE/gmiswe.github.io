@@ -13,7 +13,7 @@ API rate limits are defined in two ways:
 These limits are enforced at the organization level.
 
 ##  Usage tiers
-Rate limits vary by usage tier, with each tier offering different quotas for each model. By default, organizations are assigned to Tier 1. To request a higher rate limit, please contact sales@gmiclou.ai for an upgrade. 
+Rate limits vary by usage tier, with each tier offering different quotas for each model. By default, organizations are assigned to Tier 1. To request a higher rate limit, please contact support@gmicloud.ai for an upgrade. 
 
 ## Rate Limit Table
 
