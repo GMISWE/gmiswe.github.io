@@ -41,7 +41,6 @@ There are two ways to configure authentication:
 Set the following environment variables:
 
 ```bash
-export GMI_CLOUD_CLIENT_ID="<YOUR_CLIENT_ID>"
 export GMI_CLOUD_EMAIL="<YOUR_EMAIL>"
 export GMI_CLOUD_PASSWORD="<YOUR_PASSWORD>"
 ```
@@ -54,7 +53,6 @@ Pass credentials directly when initializing the client:
 from gmicloud import Client
 
 client = Client(
-    client_id="<YOUR_CLIENT_ID>",
     email="<YOUR_EMAIL>",
     password="<YOUR_PASSWORD>"
 )
@@ -131,14 +129,13 @@ while True:
 
 ```python
 class Client:
-    def __init__(self, client_id: Optional[str] = "", 
+    def __init__(self,  
                  email: Optional[str] = "", 
                  password: Optional[str] = ""):
         """
         Initialize the GMI Cloud client.
         
         Args:
-            client_id: Your GMI Cloud client ID
             email: Your GMI Cloud email
             password: Your GMI Cloud password
         """
